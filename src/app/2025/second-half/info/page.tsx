@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { ArrowLeft, Clock, MapPin, BookOpen, Users, Coffee, Gift, Calendar, Heart } from "lucide-react";
+import { ArrowLeft, Clock, MapPin, BookOpen, Users, Coffee, Calendar } from "lucide-react";
 import Footer from "@/components/ui/Footer";
 
 export default function CommunityInfoPage() {

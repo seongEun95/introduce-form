@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { ArrowLeft, Users, Info, List } from "lucide-react";
+import { ArrowLeft, Users, Info } from "lucide-react";
 import Footer from "@/components/ui/Footer";
 
 export default function SecondHalfPage() {

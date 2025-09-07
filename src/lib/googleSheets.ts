@@ -158,13 +158,15 @@ export function testDirectURL() {
   const scriptUrl =
     "https://script.google.com/macros/s/AKfycbx60yeu-ODiOyjAMfv-eUODB0QW-8vvnH5Yv_1zEmho9teVIRNhi9eA6FPH5TPqxRCE/exec";
 
-  console.log("다음 URL을 브라우저에서 직접 테스트해보세요:");
-  console.log("기본 테스트:", scriptUrl);
-  console.log("목록 가져오기:", `${scriptUrl}?action=getList`);
-  console.log("상세 가져오기:", `${scriptUrl}?action=getDetail&id=1`);
+  if (typeof window !== "undefined") {
+    console.log("다음 URL을 브라우저에서 직접 테스트해보세요:");
+    console.log("기본 테스트:", scriptUrl);
+    console.log("목록 가져오기:", `${scriptUrl}?action=getList`);
+    console.log("상세 가져오기:", `${scriptUrl}?action=getDetail&id=1`);
 
-  // 새 창에서 열기
-  window.open(scriptUrl, "_blank");
+    // 새 창에서 열기
+    window.open(scriptUrl, "_blank");
+  }
 }
 
 /**
