@@ -420,7 +420,7 @@ export default function ChurchIntroducePage() {
                     </div>
 
                     {/* 안내 메시지 */}
-                    <p className="text-sm text-gray-500 mt-4">💡 제출하기 전에 연결 테스트를 해보세요!</p>
+                    <p className="text-sm text-gray-500 mt-4">💡 소개가 끝난 후 제출해주세요~</p>
                   </div>
                 </form>
               </Form>
